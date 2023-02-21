@@ -56,11 +56,11 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 ### Cómo ejecutar el proyecto localmente ###
 1. Instalar PostgreSQL.
 2. Crear una base de datos con el nombre "videogames".
-3. Dentro de "/api" crear un archivo .env, como se muestra a continuación:
+3. Dentro de "/api" crear un archivo .env y pegar en él el siguiente código:
 ```
 DB_USER={usuario}
 DB_PASSWORD={contraseña}
 DB_HOST=localhost
 API_KEY=
 ```
-Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
+  Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
