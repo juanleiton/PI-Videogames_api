@@ -62,5 +62,6 @@ DB_USER={usuario}
 DB_PASSWORD={contraseña}
 DB_HOST=localhost
 API_KEY=
+
+//Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
 ```
-  Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
