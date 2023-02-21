@@ -25,4 +25,6 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 - Validación de datos en tiempo real al añadir o actualizar videojuegos. El botón que permite enviar el formulario es habilitado o deshabilidato dependiendo de si los datos introducidos por el usuario cumplen o no con ciertos parámetros que se detallan debajo de cada campo; por ejemplo, cuando el número de caracteres del título supera el máximo permitido.
 
 ### Tecnologías ###
-![image](https://user-images.githubusercontent.com/108427945/220446770-f8d6bc11-2a43-45d2-8e8a-d0090d95dbe0.png)
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220446770-f8d6bc11-2a43-45d2-8e8a-d0090d95dbe0.png" width="500" >
+  </a>
