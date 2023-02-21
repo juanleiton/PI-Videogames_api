@@ -59,8 +59,11 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 3. Dentro de "/api" crear un archivo .env, como se muestra a continuación:
 
 DB_USER={usuario}
+
 DB_PASSWORD={contraseña}
+
 DB_HOST=localhost
+
 API_KEY=
 
 Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
