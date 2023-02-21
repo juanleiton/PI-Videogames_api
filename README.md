@@ -4,7 +4,8 @@
   </a>
 </div>
 
-## HenryGames, proyecto individual desarrollado en Henry, "bootcamp" de desarrollo Web. ##
+# HenryGames #
+## Proyecto individual desarrollado en Henry, "bootcamp" de desarrollo Web. ##
 <div align="center">
   <a href="url">
     <img src="https://user-images.githubusercontent.com/108427945/220424776-f2c06892-dc47-4073-a475-5eb41ff8927c.png" width="500" >
