@@ -12,10 +12,10 @@
   </a>
 </div>
 
-### Importante ###
+### ⚠️⚠️⚠️ Importante ⚠️⚠️⚠️ ###
 Para efectos del despliegue de la aplicación, se dispuso de dos repositorios:
-- El repositorio del servidor está disponible en: https://github.com/juanleiton/PI-Videogames_api
-- El repositorio del cliente está disponible en: https://github.com/juanleiton/PI-Videogames_client
+- Repositorio del servidor: https://github.com/juanleiton/PI-Videogames_api
+- Repositorio del cliente: https://github.com/juanleiton/PI-Videogames_client
 
 ### Propósito ###
 Desarrollar una **aplicación Web full stack** que recibe datos de una API externa de videojuegos. 🎮
@@ -80,4 +80,4 @@ npm install
 npm start
 ```
 
-#### Escribir a jgleitonl@gmail.com para resolver cualquier duda o inquietud relacionada con este proyecto. ####
+#### Si surge algún inconveniente durante la ejecución de este proyecto, o ante cualquier duda relacionada con él, escribir a jgleitonl@gmail.com 📧 ####
