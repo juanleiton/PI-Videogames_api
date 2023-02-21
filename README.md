@@ -58,9 +58,9 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 2. Crear una base de datos con el nombre "videogames".
 3. Dentro de "/api" crear un archivo .env, como se muestra a continuación:
 ```
-<div>DB_USER={usuario}</div>
-<div>DB_PASSWORD={contraseña}</div>
-<div>DB_HOST=localhost</div>
-<div>API_KEY=</div>
+DB_USER={usuario}
+DB_PASSWORD={contraseña}
+DB_HOST=localhost
+API_KEY=
 ```
 Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
