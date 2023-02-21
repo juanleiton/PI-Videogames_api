@@ -25,7 +25,7 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 - 🔍 Barra de búsqueda presente en todas las vistas, mediante la cual se pueden buscar videojuegos cuyo título contenga el texto introducido. Los resultados incluyen tanto los videojuegos provenientes de la API, como aquellos añadidos por el usuario.
 - 📑 Vista de detalle, en la que el usuario puede visualizar la información completa de un videojuego en particular.
 - 🗐 Paginación dinámica, tanto en la vista principal, como en la vista de resultados de búsqueda. Funciona independientemente de los filtros u ordenamientos que se encuentren activos o del número de elementos presentes.
-- 🚩 Filtros y ordenamientos combinados en las vistas principal y de resultados de búsqueda. El usuario puede elegir entre visualizar todos los videojuegos, sólo los creados por él, o sólo los de la aplicación. Es posible filtrar por uno o más géneros. Así mismo, se pueden ordenar los videojuegos por título o por puntuación, de manera ascendente y descendente; el ordenamiento ascendente por título está seleccionado por defecto.
+- 🎚️ Filtros y ordenamientos combinados en las vistas principal y de resultados de búsqueda. El usuario puede elegir entre visualizar todos los videojuegos, sólo los creados por él, o sólo los de la aplicación. Es posible filtrar por uno o más géneros. Así mismo, se pueden ordenar los videojuegos por título o por puntuación, de manera ascendente y descendente; el ordenamiento ascendente por título está seleccionado por defecto.
 - ➕ CRUD completo. Además de poder visualizar y añadir videojuegos, es posible crear o eliminar un videojuego ya existente, esto es posible mediante dos botones en la vista de detalle, los cuales están deshabilitados si el videojuego en cuestión NO fue añadido por el usuario.
 - ⛔ Validación de datos en tiempo real al añadir o actualizar videojuegos. El botón que permite enviar el formulario es habilitado o deshabilidato dependiendo de si los datos introducidos por el usuario cumplen o no con ciertos parámetros que se detallan debajo de cada campo; por ejemplo, cuando el número de caracteres del título supera el máximo permitido.
 
@@ -61,23 +61,23 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 ### Cómo ejecutar el proyecto localmente ⚙️ ###
 1. Instalar PostgreSQL.
 2. Crear una base de datos con el nombre "videogames".
-3. Dentro de "/api" crear un archivo .env, luego copiar y pegar en él el siguiente código:
+3. Dentro de "PI-Videogames_api" crear un archivo .env, luego copiar y pegar en él el siguiente código:
 ```
 DB_USER={usuario}
 DB_PASSWORD={contraseña}
 DB_HOST=localhost
-API_KEY=
+API_KEY=7a8e8bb3505d4946bdffee2a3ef9eb56
 
 # Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
 ```
-4. Con el administrador de paquetes npm, dentro "/api" y "/client" ejecutar el siguiente comando:
+4. Con el administrador de paquetes npm, dentro de "PI-Videogames_api" y "PI-Videogames_client" ejecutar el siguiente comando:
 
 ```
 npm install
 ```
-5. Una vez instaladas todas las dependencias correctamente, ejecutar el siguiente comando, primero en "/api" y luego "/client":
+5. Una vez instaladas todas las dependencias correctamente, ejecutar el siguiente comando, primero en "PI-Videogames_api" y luego "PI-Videogames_client":
 ```
 npm start
 ```
-
-#### Si surge algún inconveniente durante la ejecución de este proyecto, o ante cualquier duda relacionada con él, escribir a jgleitonl@gmail.com 📧 ####
+### Cómo contactar al desarrollador 📫 ###
+Si surge algún inconveniente durante la ejecución de este proyecto 🚩, o ante cualquier inquietud relacionada con él ❓, escribir a jgleitonl@gmail.com 📧
