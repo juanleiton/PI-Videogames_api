@@ -74,3 +74,4 @@ npm install
 ```
 npm start
 ```
+### Escribir a jgleitonl@gmail.com para resolver cualquier duda o inconveniente en relación a este proyecto. ###
