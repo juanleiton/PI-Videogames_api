@@ -4,7 +4,7 @@
   </a>
 </div>
 
-# HenryGames #
+# **HenryGames** #
 ### Proyecto individual desarrollado en Henry, "bootcamp" de desarrollo Web. ###
 <div align="center">
   <a href="url">
@@ -12,15 +12,15 @@
   </a>
 </div>
 
-### ⚠️⚠️⚠️ Importante ⚠️⚠️⚠️ ###
+### Importante ⚠️ ###
 Para efectos del despliegue de la aplicación, se dispuso de dos repositorios:
 - Repositorio del servidor: https://github.com/juanleiton/PI-Videogames_api
 - Repositorio del cliente: https://github.com/juanleiton/PI-Videogames_client
 
-### Propósito ###
+### Propósito 🎖️ ###
 Desarrollar una **aplicación Web full stack** que recibe datos de una API externa de videojuegos. 🎮
 
-### Funcionalidades ###
+### Funcionalidades ✔️ ###
 - Vista principal, en la que se visualizan TODOS los videojuegos, independientemente de si fueron o no creados por el usuario.
 - Barra de búsqueda presente en todas las vistas, mediante la cual se pueden buscar videojuegos cuyo título contenga el texto introducido. Los resultados incluyen tanto los videojuegos provenientes de la API, como aquellos añadidos por el usuario.
 - Vista de detalle, en la que el usuario puede visualizar la información completa de un videojuego en particular.
@@ -29,7 +29,7 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 - CRUD completo. Además de poder visualizar y añadir videojuegos, es posible crear o eliminar un videojuego ya existente, esto es posible mediante dos botones en la vista de detalle, los cuales están deshabilitados si el videojuego en cuestión NO fue añadido por el usuario.
 - Validación de datos en tiempo real al añadir o actualizar videojuegos. El botón que permite enviar el formulario es habilitado o deshabilidato dependiendo de si los datos introducidos por el usuario cumplen o no con ciertos parámetros que se detallan debajo de cada campo; por ejemplo, cuando el número de caracteres del título supera el máximo permitido.
 
-### 👨‍💻👨‍💻👨‍💻 Tecnologías 👨‍💻👨‍💻👨‍💻 ###
+### Tecnologías 🖥️ ###
   <a href="url">
     <img src="https://user-images.githubusercontent.com/108427945/220447577-2d40e53b-d911-4919-9df8-1a832e7264e1.png" width="50" >
   </a>
@@ -58,7 +58,7 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
     <img src="https://user-images.githubusercontent.com/108427945/220451188-0dd37557-2067-4058-b6bc-eb14377f334c.png" width="50" >
   </a>
 
-### ⚙️⚙️⚙️ Cómo ejecutar el proyecto localmente ⚙️⚙️⚙️ ###
+### ⚙Cómo ejecutar el proyecto localmente ⚙️ ###
 1. Instalar PostgreSQL.
 2. Crear una base de datos con el nombre "videogames".
 3. Dentro de "/api" crear un archivo .env, luego copiar y pegar en él el siguiente código:
