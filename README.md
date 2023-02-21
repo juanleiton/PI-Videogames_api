@@ -34,10 +34,21 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
   <a href="url">
     <img src="https://user-images.githubusercontent.com/108427945/220448406-7bcd41a4-e0c3-4d97-8901-6ec45c3effa5.png" width="50" >
   </a>
-    <a href="url">
+  <a href="url">
     <img src="https://user-images.githubusercontent.com/108427945/220448808-2ccebd50-595e-4b02-8b59-ac7b4f5e52d4.png" width="50" >
   </a>
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220449748-8b0cce45-1156-49a7-a6da-83a8d921c83b.png" width="50" >
   </a>
-    <a href="url">
-    <img src="https://user-images.githubusercontent.com/108427945/220449748-8b0cce45-1156-49a7-a6da-83a8d921c83b.png" width="40" >
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220450396-5786cd98-e2ce-47e8-b15f-056a251bd01b.png" width="50" >
+  </a>
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220450657-a17aca01-f90d-4843-9137-20bca9668a22.png" width="50" >
+  </a>
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220451016-cfb63adb-0aa4-493a-bef0-e090e301b3b1.png" width="50" >
+  </a>
+  <a href="url">
+    <img src="https://user-images.githubusercontent.com/108427945/220451188-0dd37557-2067-4058-b6bc-eb14377f334c.png" width="50" >
   </a>
