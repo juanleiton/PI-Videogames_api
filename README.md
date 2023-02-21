@@ -26,5 +26,5 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 
 ### Tecnologías ###
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/108427945/220446770-f8d6bc11-2a43-45d2-8e8a-d0090d95dbe0.png" width="500" >
+    <img src="https://user-images.githubusercontent.com/108427945/220446770-f8d6bc11-2a43-45d2-8e8a-d0090d95dbe0.png" width="100" >
   </a>
