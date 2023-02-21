@@ -75,7 +75,7 @@ API_KEY=7a8e8bb3505d4946bdffee2a3ef9eb56
 ```
 npm install
 ```
-5. Una vez instaladas todas las dependencias correctamente, ejecutar el siguiente comando, primero en "PI-Videogames_api" y luego "PI-Videogames_client":
+5. Una vez instaladas todas las dependencias correctamente, ejecutar el siguiente comando, primero en "PI-Videogames_api" y luego en "PI-Videogames_client":
 ```
 npm start
 ```
