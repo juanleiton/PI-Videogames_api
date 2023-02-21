@@ -1,8 +1,9 @@
 <div align="left">
   <a href="url">
-    <img src="https://user-images.githubusercontent.com/108427945/220423842-b40a485f-734b-418e-81f7-6ddfa23acd99.png" width="500" >
+    <img src="https://user-images.githubusercontent.com/108427945/220423842-b40a485f-734b-418e-81f7-6ddfa23acd99.png" width="250" >
   </a>
 </div>
+
 ## HenryGames ##
 <div align="center">
   <a href="url">
