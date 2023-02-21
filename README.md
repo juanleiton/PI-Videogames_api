@@ -65,3 +65,8 @@ API_KEY=
 
 #Reemplazar {usuario} y {contraseña} con las credenciales de Postgres propias.
 ```
+4. Con el administrador de paquetes npm, dentro "/api" y "/client" ejecutar el siguiente comando:
+
+```
+npm install
+```
