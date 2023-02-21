@@ -74,4 +74,7 @@ npm install
 ```
 npm start
 ```
+### Importante ###
+Este repositorio corresponde solamente al servidor de la aplicación, el repositorio del cliente está disponible en: https://github.com/juanleiton/PI-Videogames_client
+
 #### Escribir a jgleitonl@gmail.com para resolver cualquier duda o inquietud relacionada con este proyecto. ####
