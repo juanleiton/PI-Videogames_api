@@ -39,5 +39,5 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
   </a>
   </a>
     <a href="url">
-    <img src="" width="50" >
+    <img src="https://user-images.githubusercontent.com/108427945/220449748-8b0cce45-1156-49a7-a6da-83a8d921c83b.png" width="50" >
   </a>
