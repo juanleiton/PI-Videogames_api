@@ -23,3 +23,6 @@ Desarrollar una **aplicación Web full stack** que recibe datos de una API exter
 - Filtros y ordenamientos combinados en las vistas principal y de resultados de búsqueda. El usuario puede elegir entre visualizar todos los videojuegos, sólo los creados por él, o sólo los de la aplicación. Es posible filtrar por uno o más géneros. Así mismo, se pueden ordenar los videojuegos por título o por puntuación, de manera ascendente y descendente; el ordenamiento ascendente por título está seleccionado por defecto.
 - CRUD completo. Además de poder visualizar y añadir videojuegos, es posible crear o eliminar un videojuego ya existente, esto es posible mediante dos botones en la vista de detalle, los cuales están deshabilitados si el videojuego en cuestión NO fue añadido por el usuario.
 - Validación de datos en tiempo real al añadir o actualizar videojuegos. El botón que permite enviar el formulario es habilitado o deshabilidato dependiendo de si los datos introducidos por el usuario cumplen o no con ciertos parámetros que se detallan debajo de cada campo; por ejemplo, cuando el número de caracteres del título supera el máximo permitido.
+
+### Tecnologías ###
+![image](https://user-images.githubusercontent.com/108427945/220446770-f8d6bc11-2a43-45d2-8e8a-d0090d95dbe0.png)
