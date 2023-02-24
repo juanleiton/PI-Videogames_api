@@ -21,7 +21,7 @@ For deployment purposes, two repos were used:
 Develop a **full stack Web app** that takes data from an external videogame API. 🎮
 
 ### Features ✔️ ###
-- 🚪 Main view, in which all videogames are visualized, whether they are user-created or not.
+- 🚪 Main view, in which all videogames are visualized, whether they were added by the user or not.
 - 🔍 Searchbar on every view, by which videogames whose title contains the entered text are returned. Results include videogames from the API, as well as those added by the user.
 - 📑 Detail view, in which further information for a particular videocame can be visualized.
 - 🗐 Dynamic paging, regardless of the number of results or the selected filters and ordering.
