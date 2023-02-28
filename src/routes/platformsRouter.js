@@ -1,9 +1,10 @@
 const { Router } = require("express");
+const cors = require("cors");
 const { getPlatformsDB, getPlatformsAPI } = require("../controllers/get-platforms/index.js");
 
 const platformsRouter = Router();
 
-platformsRouter.get("/platforms", async (req, res) => {
+platformsRouter.get("/platforms", cors(), async (req, res) => {
   try {
     const platformsDB = await getPlatformsDB();
     if(platformsDB) return res.json(platformsDB);

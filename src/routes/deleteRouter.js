@@ -1,11 +1,14 @@
 const { Router } = require("express");
+const cors = require("cors");
 // const fileUpload = require("express-fileupload");
 const { deleteGame } = require("../controllers/delete-game/index.js");
 
 const deleteRouter = Router();
 // createRouter.use(fileUpload());
 
-deleteRouter.delete("/videogame/:id", async (req, res) => {
+deleteRouter.options("/videogame/:id", cors());
+
+deleteRouter.delete("/videogame/:id", cors(), async (req, res) => {
   try {
     const { id } = req.params;
     await deleteGame(id);

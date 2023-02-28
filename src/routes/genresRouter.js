@@ -1,9 +1,10 @@
 const { Router } = require("express");
+const cors = require("cors");
 const { getGenresDB, getGenresAPI } = require("../controllers/get-genres/index.js");
 
 const genresRouter = Router();
 
-genresRouter.get("/genres", async (req, res) => {
+genresRouter.get("/genres", cors(), async (req, res) => {
   try {
     const genresDB = await getGenresDB();
     if(genresDB) return res.json(genresDB);

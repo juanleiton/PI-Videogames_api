@@ -1,9 +1,10 @@
 const { Router } = require("express");
+const cors = require("cors");
 const { retrieveFromDB, retrieveFromAPI } = require("../controllers/get-detail/index.js");
 
 const detailRouter = Router();
 
-detailRouter.get("/videogame/:id", async (req, res) => {
+detailRouter.get("/videogame/:id", cors(), async (req, res) => {
   try {
     const { id } = req.params;
     const gameDB = await retrieveFromDB(id);

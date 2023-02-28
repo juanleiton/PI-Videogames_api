@@ -1,11 +1,14 @@
 const { Router } = require("express");
+const cors = require("cors");
 // const fileUpload = require("express-fileupload");
 const { addGenres, createGame, returnCreatedGame, validateGame } = require("../controllers/create-game/index.js");
 
 const createRouter = Router();
 // createRouter.use(fileUpload());
 
-createRouter.post("/videogame", async (req, res) => {
+createRouter.options("/videogame", cors());
+
+createRouter.post("/videogame", cors(), async (req, res) => {
   try {
     const { name, plot, released, rating, image, platforms, genres } = req.body;
     await validateGame(name, plot, released, rating, image, platforms, genres);

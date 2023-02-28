@@ -1,9 +1,12 @@
 const { Router } = require("express");
+const cors = require("cors");
 const { returnUpdatedGame, updateGame, updateGenres, validateGame } = require("../controllers/update-game/index.js");
 
 const updateRouter = Router();
 
-updateRouter.put("/videogame/:id", async (req, res) => {
+updateRouter.options("/videogame/:id", cors());
+
+updateRouter.put("/videogame/:id", cors(), async (req, res) => {
   try {
     const { id } = req.params;
     const { name, plot, released, rating, image, platforms, genres } = req.body;

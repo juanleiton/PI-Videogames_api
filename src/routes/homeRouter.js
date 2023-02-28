@@ -1,10 +1,11 @@
 const { Router } = require("express");
+const cors = require("cors");
 const { getGamesAPI, getGamesDB } = require("../controllers/get-games/index.js");
 const { searchGamesAPI, searchGamesDB } = require("../controllers/search-games/index.js");
 
 const homeRouter = Router();
 
-homeRouter.get("/videogames", async (req, res) => {
+homeRouter.get("/videogames", cors(), async (req, res) => {
   try {
     const { name } = req.query;
     if(name && name.length > 1) {
