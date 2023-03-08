@@ -18,7 +18,7 @@ For deployment purposes, two repos were used:
 - Client: https://github.com/juanleiton/PI-Videogames_client
 
 ### Goal 🏁 ###
-Develop a **full-stack Web app** that takes data from an external videogame API. 🎮
+Develop a **full-stack Web app** that takes data from an external videogame API 🎮.
 
 ### Features ✔️ ###
 - 🚪 Main view, in which all videogames are visualized, whether they were added by the user or not.
